@@ -6,7 +6,6 @@
   No aparece el termino  => nil 
   
 *Pregunta 27.
-
 [1] pry(main)> puts x
 10
 => nil
@@ -24,4 +23,27 @@ bye bye world!!!
 => "changed"
 [6] pry(main)> exit
 program resumes here. Value of x is: changed.
+
+*Pregunta 34.
+2.0.0-p247 :001 > "\t\n"
+ => "\t\n" 
+2.0.0-p247 :002 > '\t\n'
+ => "\\t\\n" 
+2.0.0-p247 :003 > 
+
+*Pregunta 35
+2.0.0-p247 :003 > %q{hello world\n}
+ => "hello world\\n" 
+
+2.0.0-p247 :005 >   %q{'a' 'b' 'c'}
+ => "'a' 'b' 'c'" 
+2.0.0-p247 :006 > 
+       -> imprime tal cual esacapando caracteres
+       
+*Pregunta 36
+2.0.0-p247 :006 > %Q{hello world\n}
+ => "hello world\n" 
+2.0.0-p247 :007 > %q{"a" "b" "c"}
+ => "\"a\" \"b\" \"c\"" 
+2.0.0-p247 :008 > 
 
