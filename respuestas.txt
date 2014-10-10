@@ -2,6 +2,26 @@
   Hello world
  => nil 
 
-
-*Pregunta 20.
+*Pregunta 21.
   No aparece el termino  => nil 
+  
+*Pregunta 27.
+
+[1] pry(main)> puts x
+10
+=> nil
+[2] pry(main)> def hello
+[2] pry(main)*   puts "Hello world"
+[2] pry(main)* end  
+=> nil
+[3] pry(main)> hello
+Hello world
+=> nil
+[4] pry(main)> byebye
+bye bye world!!!
+=> nil
+[5] pry(main)> x = "changed"
+=> "changed"
+[6] pry(main)> exit
+program resumes here. Value of x is: changed.
+
